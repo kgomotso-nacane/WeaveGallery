@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weave Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Gentium+Plus:wght@700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/213f6776ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Masego’s Quality Hair</h1>
+        </div>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <div class="list-format">
+                        <li class="list-list"><a href="#home">Home</a></li>
+                        <li class="list-list"><a href="#products">Products</a></li>
+                        <li class="list-list"><a href="#contact">Contact</a></li>
+                        <li class="list-list"><a href="#videos">Video&nbsp;Demos</a></li>
+                    </div>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <nav class="mobile-nav">
+        <span class="close-button">&times;</span>
+        <ul class="menu-list-mobile" >
+            <li><a class="menu-list-item"href="#home">Home</a></li><br>
+            <li><a class="menu-list-item" href="#products">Products</a></li><br>
+            <li><a class="menu-list-item" href="#contact">Contact</a></li><br>
+            <li><a class="menu-list-item" href="#videos">Video&nbsp;Demos</a></li><br>
+        </ul>
+    </nav>
+    <div id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <section id="home">
+        <h2>I’m Masego,</h2>
+        <p>Glad to see you! Discover the finest selection of premium weaves crafted with care and expertise. Elevate your style and confidence with hair that speaks volumes.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="src/images/kinky-curls.jpg" alt="Kinky&nbsp;Curls">
+                <h3>Kinky&nbsp;Curls</h3>
+                <p>Available in: Black, Blonde, Burgundy, Red</p>
+                <button class="view-details" data-gallery="kinky-curls-gallery">View&nbsp;Details</button>
+            </div>
+            <div class="product-card">
+                <img src="src/images/body-waves.jpg" alt="Body&nbsp;Waves">
+                <h3>Body&nbsp;Waves</h3>
+                <p>Available in: Black, Blonde, Burgundy, Red</p>
+                <button class="view-details" data-gallery="body-waves-gallery">View&nbsp;Details</button>
+            </div>
+            <div class="product-card">
+                <img src="src/images/deep-wave.jpg" alt="Deep&nbsp;Wave">
+                <h3>Deep&nbsp;Wave</h3>
+                <p>Available in: Black, Blonde, Burgundy, Red</p>
+                <button class="view-details" data-gallery="deep-wave-gallery">View&nbsp;Details</button>
+            </div>
+            <div class="product-card">
+                <img src="src/images/straight-brown.jpg" alt="Straight&nbsp;Hair">
+                <h3>Straight&nbsp;Hair</h3>
+                <p>Available in: Black, Blonde, Burgundy, Red</p>
+                <button class="view-details" data-gallery="straight-hair-class">View&nbsp;Details</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="kinky-curls-gallery" class="gallery-popup">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/kinky-curls1.jpg" alt="Kinky Curls Style 1">
+                    <h4>Kinky&nbsp;Curls&nbsp;Style&nbsp;1</h4>
+                    <p>Price:&nbsp;R1660</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="body-waves-gallery" class="gallery-popup">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/body-waves1.jpg" alt="Body Waves Style 1">
+                    <h4>Body&nbsp;Waves&nbsp;Style&nbsp;1</h4>
+                    <p>Price:&nbsp;R1660</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="deep-wave-gallery" class="gallery-popup">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/deep-wave1.jpg" alt="Deep Wave Style 1">
+                    <h4>Deep&nbsp;Wave&nbsp;Style&nbsp;1</h4>
+                    <p>Price:&nbsp;R1660</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="straight-hair" class="gallery-popup straight-hair-class">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/straight-brown.jpg" alt="Deep Wave Style 1">
+                    <h4>Straight&nbsp;Brown&nbsp;Style&nbsp;1</h4>
+                    <p>Price:&nbsp;R1660</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="straight-hair1" class="gallery-popup straight-hair-class">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/frinde-straight.jpg" alt="Deep Wave Style 1">
+                    <h4>Fringe&nbsp;Straight&nbsp;-&nbsp;8&nbsp;inches&nbsp;</h4>
+                    <p>Price:&nbsp;R450</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="straight-hair2" class="gallery-popup straight-hair-class">
+        <div class="gallery-content">
+            <span class="close">&times;</span>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="src/images/frinde-straight.jpg" alt="Deep Wave Style 1">
+                    <h4>Fringe&nbsp;Straight&nbsp;-&nbsp;10&nbsp;inches&nbsp;</h4>
+                    <p>Price:&nbsp;R550</p>
+                    <a href="https://wa.me/+27647064274" class="order-btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="videos">
+        <h2>See Our Weaves in Action!</h2>
+        <p>Watch these video demos to see how our weaves can enhance your natural beauty. From everyday styles to glamorous looks, our weaves are versatile and easy to manage.</p>
+        <div class="video-container">
+            <div class="video-card">
+                <video controls muted src="src/videos/vid2.mp4" frameborder="0" allow="accelerometer; mute; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+                <h3>Kinky Curls Transformation</h3>
+            </div>
+            <div class="video-card">
+                <video controls muted src="src/videos/vid1.mp4" frameborder="0" allow="accelerometer; mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+                <h3>Body Waves Magic</h3>
+            </div>
+            <div class="video-card">
+                <video controls muted src="src/videos/vid3.mp4" frameborder="0" allow="accelerometer; mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+                <h3>Deep Wave Styling Tips</h3>
+            </div>
+            <div class="video-card">
+                <video controls muted src="src/videos/vid4.mp4" frameborder="0" allow="accelerometer; mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+                <h3>Straight Out of the Style Book</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-part">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/manwjqnz" method="post" id="contact-form">
+            <div>
+                <label for="Name" hidden>Name</label>
+                <input id="username" type="text" name="username" maxlength="30" title="Name should be text and not more than 30 characters" placeholder="Enter your Name" required>
+                <small></small>
+            </div>
+            <div class="email-div">
+                <label for="email" hidden>Email</label>
+                <input id="useremail" type="email" name="email" required  title="Only emails are allowed here" placeholder="Enter your Email">
+                
+            </div>
+            <div>
+                <label for="email" hidden>Description</label>
+                <textarea id="description" type="text" rows="5" name="description" required maxlength="500" title="description should be not more than 500 characters" placeholder="Write your message here"></textarea>
+            </div>
+            <div id="center">
+                <small class="validator"></small>
+                <button class="view-more" type="submit" id="submit-form" onclick="EmailValidation(event)">Get in touch</button>
+            </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Weave Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
