@@ -30,26 +30,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     viewDetailsButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const galleryClass = button.getAttribute('data-gallery');
-            const galleryPopup = document.querySelector(`.${galleryClass}`);
-            if (galleryPopup) {
-                galleryPopup.style.display = 'flex';
-            }
+            const galleryId = button.getAttribute('data-gallery');
+            const galleryPopup = document.getElementById(galleryId);
+            galleryPopup.style.display = 'flex';
         });
     });
 
     closeButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const galleryPopup = button.closest('.gallery-popup');
-            if (galleryPopup) {
-                galleryPopup.style.display = 'none';
-            }
+            button.parentElement.parentElement.style.display = 'none';
         });
     });
 
     window.onclick = function(event) {
         galleryPopups.forEach(popup => {
-            if (event.target === popup) {
+            if (event.target == popup) {
                 popup.style.display = 'none';
             }
         });
