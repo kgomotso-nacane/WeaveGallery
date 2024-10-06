@@ -108,7 +108,7 @@ header nav ul li a:target {
   margin-bottom: 1rem;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #ff66a3;
+  color: x;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -125,7 +125,7 @@ section {
 }
 
 section#home {
-  background-color: #66deff;
+  background-color: #5f1a58;
   color: #fff;
   padding: 4rem 2rem;
   font-family: 'Roboto', sans-serif;
@@ -170,71 +170,85 @@ section#home {
 }
 
 .gallery-popup {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.8);
+  display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.gallery-popup.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 .gallery-content {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  width: 80%;
-  max-width: 900px;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.close {
+.close-gallery {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 10px;
+  background: transparent;
+  border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #333;
 }
 
-.gallery-grid {
+.gallery-images {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 .gallery-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
-.gallery-item h4 {
-  margin: 0.5rem 0;
+.gallery-item .label {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.gallery-item .order-btn {
-  background-color: #ff66a3;
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: 5px;
+.gallery-item .order-now {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 4px;
   text-decoration: none;
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.gallery-item .order-btn:hover {
-  background-color: #ff3385;
+.gallery-item .order-now:hover {
+  background-color: #128C7E;
 }
 
 #videos {
@@ -309,7 +323,7 @@ section#home {
   }
 
   section#home {
-    background-color: #66deff;
+    background-color: #5f1a58;
     color: #fff;
     padding: 4rem 2rem;
     font-family: 'Roboto', sans-serif;
@@ -409,9 +423,9 @@ form button:hover {
   background-color: #ff3385;
 }
 
-.product-card button:hover {
+/* .product-card button:hover {
   background-color: #ff3385;
-}
+} */
 
 footer {
   background-color: #333;
