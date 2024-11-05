@@ -209,6 +209,29 @@ section#home {
   cursor: pointer;
 }
 
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.left-arrow {
+  left: 10px;
+  z-index: 1000;
+}
+
+.right-arrow {
+  right: 10px!important;
+  z-index: 1000;
+}
+
+
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
