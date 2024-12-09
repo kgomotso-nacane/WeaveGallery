@@ -5,13 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const viewDetailsButtons = document.querySelectorAll('.view-details');
   const menuListItems = document.querySelectorAll('.menu-list-mobile a');
 
-  menuIcon.addEventListener('click', () => {
-    mobileNav.style.display = 'block';
-  });
+  
+menuIcon.addEventListener('click', () => {
+  mobileNav.classList.toggle('active');
+});
 
-  closeButton.addEventListener('click', () => {
-    mobileNav.style.display = 'none';
-  });
+closeButton.addEventListener('click', () => {
+  mobileNav.classList.remove('active');
+});
 
   menuListItems.forEach((item) => {
     item.addEventListener('click', () => {
