@@ -17,10 +17,16 @@ const galleries = {
         { src: 'src/images/deep-wave1.jpg', label: 'Black Deep Wave - From R1250' },
     ],
     'straight-hair-gallery': [
-        { src: 'src/images/frinde-straight.jpg', label: 'Frinde Straight - From R1300' },
-        { src: 'src/images/straight-blonde.jpeg', label: 'Straight Blonde - From R1700' },
-        { src: 'src/images/straight-brown.jpeg', label: 'Straight Brown - From R1700' },
-        { src: 'src/images/straight-pink.jpeg', label: 'Straight Pink -From R1700' },
+        { src: 'src/images/16in Black Straight.jpeg', label: '16in Black Straight Hair - R1300' },
+        { src: 'src/images/16in Blonde Straight.jpeg', label: '16in Blonde Straight Hair - R1300' },
+        { src: 'src/images/16in Burgundy Straight.jpeg', label: '16in Burgundy Straight - R1300' },
+        { src: 'src/images/16in Straight Burgundy.jpeg', label: '16in Burgundy Straight - R1300' },
+        { src: 'src/images/18in Black Straight.jpeg', label: '18in Black Straight - R1450' },
+        { src: 'src/images/20in Burgundy Straight.jpeg', label: '20in Burgundy Straight - R1600' },
+        { src: 'src/images/20in Pink Straight.jpeg', label: '20in Pink Straight - R1600' },
+        { src: 'src/images/24in Pink Straight.jpeg', label: '24in Pink Straight - R1900' },
+        { src: 'src/images/28in Black Straight.jpeg', label: '28in Black Straight - R2300' },
+        { src: 'src/images/28in Blonde Straight.jpeg', label: '28in Blonde Straight - R2300' },
     ]
 };
 
