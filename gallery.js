@@ -1,20 +1,25 @@
 const galleries = {
     'kinky-curls-gallery': [
-        { src: 'src/images/kinky-curls1.jpg', label: 'Long Kinky Curls - R1000' },
-        { src: 'src/images/kinky-curls3.jpg', label: 'Short Kinky Curls - R1000' },
-        { src: 'src/images/kinky-black.jpeg', label: 'Kinky Curls 3' },
-        { src: 'src/images/kinky-gold.jpeg', label: 'Kinky Curls 4' },
-        { src: 'src/images/kinky-brugundy.jpeg', label: 'Kinky Curls 5' },
-        { src: 'src/images/kinky-brugundy.jpeg', label: 'Kinky Curls 6' },
-        { src: 'src/images/kinky-brugundy.jpeg', label: 'Kinky Curls 7' },
-        { src: 'src/images/kinky-brugundy.jpeg', label: 'Kinky Curls 8' },
+        { src: 'src/images/kinky-curls1.jpg', label: '18in Black Kinky Curls - R1550' },
+        { src: 'src/images/kinky-curls3.jpg', label: '16in Black Kinky Curls - R1350' },
+        { src: 'src/images/kinky-black.jpeg', label: '26in Black Kinky Curls - R2150' },
+        { src: 'src/images/kinky-gold.jpeg', label: '26in Gold Kinky Curls - R2300' },
+        { src: 'src/images/kinky-brugundy.jpeg', label: '28in Burgundy Kinky Curls - R2550' },
+        { src: 'src/images/22in Kinky Curls Black.jpeg', label: '22in Black Kinky Curls - R1850' },
+        { src: 'src/images/26in Red Kinky Curls.jpeg', label: '26in Red Kinky Curls - R2300' },
     ],
     'body-waves-gallery': [
-        { src: 'src/images/body-waves1.jpg', label: 'Body Wave - From R1250' },
-        { src: 'src/images/black-body-wave.jpeg', label: 'Black Body Waves - From R1250' },
+        { src: 'src/images/20in Burgundy Body Wave.jpeg', label: '20in Burgundy Body Wave - R1850' },
+        { src: 'src/images/22in BodyWave Burgundy.jpeg', label: '22in Burgundy Body Wave - R1900'},
+        { src: 'src/images/24in Black Body Wave.jpeg', label: '24in Black Body Wave - R' },
+        { src: 'src/images/24in Blonde BodyWave.jpeg', label: '24in Blonde Body Wave - R2050' },
+        { src: 'src/images/28in Burgundy BodyWave.jpeg', label: '28in Burgundy Body Wave - R2550' },
+        { src: 'src/images/26in Black BodyWave.jpeg', label: '26in Black Body Wave - R' },
+        { src: 'src/images/28in Brown BodyWave.jpeg', label: '28in Brown Body Wave - R2550' },
     ],
-    'deep-wave-gallery': [
-        { src: 'src/images/deep-wave1.jpg', label: 'Black Deep Wave - From R1250' },
+    'deep-wave-gallery': [,
+        { src: 'src/26in Black Deep Wave.jpeg', label: '26in Black Deep Wave - R2150' },
+        { src: 'src/26in Burgundy Deep Wave.jpeg', label: '26in Burgundy Deep Wave - R2300' }
     ],
     'straight-hair-gallery': [
         { src: 'src/images/16in Black Straight.jpeg', label: '16in Black Straight Hair - R1300' },
