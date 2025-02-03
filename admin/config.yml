@@ -3,8 +3,8 @@ backend:
   repo: kgomotso-nacane/WeaveGallery
   branch: feature
 
-media_folder: "src/images"
-public_folder: "/src/images"
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "pages"
