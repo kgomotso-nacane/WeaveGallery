@@ -2,6 +2,9 @@ backend:
   name: github
   repo: kgomotso-nacane/WeaveGallery
   branch: feature
+  auth_scope: repo
+  base_url: https://masegosqualityhair.co.za
+  auth_endpoint: /auth 
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
